@@ -66,4 +66,4 @@ export const THEME = {
     green600: '#63b163',
     green700: '#399c39'
   }
-}
+};

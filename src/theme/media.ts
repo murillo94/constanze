@@ -3,4 +3,4 @@ export const MEDIA = {
   small: '(min-width: 52em)',
   medium: '(min-width: 64em)',
   large: '(min-width: 80em)',
-}
+};

@@ -25,4 +25,4 @@ export const UTILS = {
     marginTop: value,
     marginBottom: value,
   })
-}
+};
