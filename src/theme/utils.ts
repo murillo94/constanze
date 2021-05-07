@@ -24,5 +24,32 @@ export const UTILS = {
   my: () => (value) => ({
     marginTop: value,
     marginBottom: value,
+  }),
+
+  p: () => (value) => ({
+    paddingTop: value,
+    paddingBottom: value,
+    paddingLeft: value,
+    paddingRight: value,
+  }),
+  pt: () => (value) => ({
+    paddingTop: value,
+  }),
+  pr: () => (value) => ({
+    paddingRight: value,
+  }),
+  pb: () => (value) => ({
+    paddingBottom: value,
+  }),
+  pl: () => (value) => ({
+    paddingLeft: value,
+  }),
+  px: () => (value) => ({
+    paddingLeft: value,
+    paddingRight: value,
+  }),
+  py: () => (value) => ({
+    paddingTop: value,
+    paddingBottom: value,
   })
 };
