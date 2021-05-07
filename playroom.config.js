@@ -28,6 +28,7 @@ module.exports = {
     },
   }),
   exampleCode: `
-    <h1>test</h1>
+    <Box>box</Box>
+    <Button>button</Button>
   `,
 };
