@@ -45,5 +45,6 @@ module.exports = {
       <Radio />
       <Radio />
     </RadioGroup>
+    <Switch />
   `,
 };
