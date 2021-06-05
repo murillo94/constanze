@@ -1,12 +1,13 @@
-import * as LabelRadix from '@radix-ui/react-label';
+import React from 'react';
 
 import { styled } from '../../theme';
 
-export const Label = styled(LabelRadix.Root, {
+export const Paragraph = styled('p', {
   color: 'inherit',
   fontSize: '$1',
   fontWeight: 'initial',
   lineHeight: '21px',
   textAlign: 'left',
+  margin: 0,
   display: 'block',
 });

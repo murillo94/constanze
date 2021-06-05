@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { styled } from '../../theme';
 
 export const H1 = styled('h1', {
