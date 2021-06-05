@@ -37,6 +37,8 @@ module.exports = {
     <H3>heading 3</H3>
     <H4>heading 4</H4>
     <H5>heading 5</H5>
-    <Label>label</Label>
+    <Label htmlFor="firstName">label</Label>
+    <input type="text" id="firstName" />
+    <Checkbox />
   `,
 };
