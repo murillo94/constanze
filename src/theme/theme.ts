@@ -1,6 +1,13 @@
 export const THEME = {
   fontSizes: {
-    1: '14px', 2: '16px', 3: '18px', 4: '20px', 5: '22px', 6: '24px', 7: '26px', 8: '28px'
+    1: '14px',
+    2: '16px',
+    3: '18px',
+    4: '20px',
+    5: '22px',
+    6: '24px',
+    7: '26px',
+    8: '28px',
   },
   fontWeights: { 1: '400', 2: '500', 3: '600' },
   space: {
@@ -19,13 +26,13 @@ export const THEME = {
     13: '80px',
     14: '85px',
     15: '90px',
-    16: '100px'
+    16: '100px',
   },
   radii: { 1: '0', 2: '4px', 3: '5px', 4: '6px', 5: '8px' },
   shadows: {
     1: '0 0 0 3px rgba(85, 121, 229, 0.25)',
     2: '0 0 0 3px rgba(206, 65, 49, 0.25)',
-    3: '0 0 0 3px rgba(6, 146, 81, 0.25)'
+    3: '0 0 0 3px rgba(6, 146, 81, 0.25)',
   },
   colors: {
     gray0: '#ffffff',
@@ -64,6 +71,6 @@ export const THEME = {
     green400: '#a0d0a0',
     green500: '#84c284',
     green600: '#63b163',
-    green700: '#399c39'
-  }
+    green700: '#399c39',
+  },
 };
