@@ -13,7 +13,7 @@ describe('Box', () => {
 
   it('should have children and style', () => {
     const { getByText } = render(
-      <Box css={{ backgroundColor: "red" }}>{content}</Box>
+      <Box css={{ backgroundColor: 'red' }}>{content}</Box>,
     );
 
     const box = getByText(content);
@@ -24,7 +24,7 @@ describe('Box', () => {
 
   it('should have class name', () => {
     const { getByText } = render(
-      <Box className="classname-test">{content}</Box>
+      <Box className="classname-test">{content}</Box>,
     );
 
     const box = getByText(content);
