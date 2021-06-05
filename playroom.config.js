@@ -30,5 +30,13 @@ module.exports = {
   exampleCode: `
     <Box>box</Box>
     <Button>button</Button>
+    <Text>text</Text>
+    <Paragraph>paragraph</Paragraph>
+    <H1>heading 1</H1>
+    <H2>heading 2</H2>
+    <H3>heading 3</H3>
+    <H4>heading 4</H4>
+    <H5>heading 5</H5>
+    <Label>label</Label>
   `,
 };

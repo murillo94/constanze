@@ -58,6 +58,7 @@
     "typescript": "^4.2.4"
   },
   "dependencies": {
+    "@radix-ui/react-label": "^0.0.13",
     "@radix-ui/react-polymorphic": "^0.0.11",
     "@stitches/react": "^0.1.9",
     "react": "^17.0.2",
