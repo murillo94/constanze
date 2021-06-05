@@ -11,7 +11,7 @@ const StyledRadio = styled(RadioRadix.Item, {
   borderStyle: 'solid',
   borderColor: '$blue700',
   borderRadius: '50%',
-  padding: 0,
+  p: 0,
   width: 18,
   height: 18,
   display: 'inline-flex',
@@ -19,7 +19,7 @@ const StyledRadio = styled(RadioRadix.Item, {
   justifyContent: 'center',
   verticalAlign: 'middle',
 
-  '& ~ &': { marginLeft: 5 },
+  '& ~ &': { ml: 5 },
 
   '&:focus': {
     outline: 'none',

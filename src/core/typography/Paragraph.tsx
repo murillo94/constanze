@@ -8,6 +8,6 @@ export const Paragraph = styled('p', {
   fontWeight: 'initial',
   lineHeight: '21px',
   textAlign: 'left',
-  margin: 0,
+  m: 0,
   display: 'block',
 });
