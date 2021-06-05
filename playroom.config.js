@@ -40,5 +40,10 @@ module.exports = {
     <Label htmlFor="firstName">label</Label>
     <input type="text" id="firstName" />
     <Checkbox />
+    <RadioGroup>
+      <Radio />
+      <Radio />
+      <Radio />
+    </RadioGroup>
   `,
 };
