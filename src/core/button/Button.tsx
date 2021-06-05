@@ -28,7 +28,7 @@ export const Button = styled('button', {
         '&:focus': {
           boxShadow: '$1',
           borderColor: '$blue700',
-        }
+        },
       },
       minimal: {
         color: '$gray900',
@@ -42,30 +42,33 @@ export const Button = styled('button', {
         '&:focus': {
           boxShadow: '$1',
           borderColor: '$blue700',
-        }
+        },
       },
     },
     outlined: {
       true: {
         backgroundColor: 'transparent',
-      }
-    }
+      },
+    },
   },
-  compoundVariants: [{
-    variant: 'default',
-    outlined: true,
-    css: {
-      color: '$gray900',
-      borderColor: '$blue700'
-    }
-  }, {
-    variant: 'minimal',
-    outlined: true,
-    css: {
-      borderColor: '$gray300'
-    }
-  }],
+  compoundVariants: [
+    {
+      variant: 'default',
+      outlined: true,
+      css: {
+        color: '$gray900',
+        borderColor: '$blue700',
+      },
+    },
+    {
+      variant: 'minimal',
+      outlined: true,
+      css: {
+        borderColor: '$gray300',
+      },
+    },
+  ],
   defaultVariants: {
-    variant: 'default'
-  }
+    variant: 'default',
+  },
 });
