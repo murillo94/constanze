@@ -1,6 +1,5 @@
 import React from 'react';
 import * as CheckboxRadix from '@radix-ui/react-checkbox';
-import { CheckIcon } from '@radix-ui/react-icons';
 
 import { styled } from '../../theme';
 
@@ -24,8 +23,20 @@ export const StyledCheckbox = styled(CheckboxRadix.Root, {
   },
 });
 
+const StyledIndicator = styled(CheckboxRadix.Indicator, {
+  height: 10,
+  width: 3,
+  transform: 'rotate(45deg)',
+  borderBottomWidth: '2px',
+  borderBottomStyle: 'solid',
+  borderBottomColor: '$blue700',
+  borderRightWidth: '2px',
+  borderRightStyle: 'solid',
+  borderRightColor: '$blue700',
+});
+
 export const Checkbox = () => (
-  <StyledCheckbox defaultChecked>
-    <CheckboxRadix.CheckboxIndicator as={CheckIcon} />
+  <StyledCheckbox>
+    <StyledIndicator />
   </StyledCheckbox>
 );
