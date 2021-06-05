@@ -1,12 +1,7 @@
 {
   "baseUrl": ".",
-  "include": [
-    "./src"
-  ],
-  "exclude": [
-    "dist",
-    "public"
-  ],
+  "include": ["./src"],
+  "exclude": ["dist", "public"],
   "compilerOptions": {
     "jsx": "react-jsx",
     "esModuleInterop": true,
@@ -17,14 +12,7 @@
     "noEmitOnError": false,
     "allowJs": true,
     "resolveJsonModule": true,
-    "types": [
-      "node",
-      "jest",
-      "@testing-library/jest-dom",
-      "webpack",
-    ],
-    "typeRoots": [
-      "./node_modules/@types"
-    ],
+    "types": ["node", "jest", "@testing-library/jest-dom", "webpack"],
+    "typeRoots": ["./node_modules/@types"]
   }
 }
