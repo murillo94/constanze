@@ -47,5 +47,6 @@ module.exports = {
     </RadioGroup>
     <Switch />
     <Badge>badge</Badge>
+    <Anchor href="https://www.google.com/">anchor</Anchor>
   `,
 };
