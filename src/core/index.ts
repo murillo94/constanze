@@ -6,3 +6,4 @@ export * from './radio';
 export * from './switch';
 export * from './badge';
 export * from './anchor';
+export * from './image';
