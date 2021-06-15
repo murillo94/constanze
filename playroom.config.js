@@ -54,5 +54,6 @@ module.exports = {
     <ImageDescription src="https://media-exp3.licdn.com/dms/image/C560BAQHMnA03XDdf3w/company-logo_200_200/0/1519855918965?e=2159024400&v=beta&t=CrP5Le1mWICRcaxIGNBuajHcHGFPuyNA5C8DI339lSk" width="60px" height="60px" description="image description" />
     <Icon />
     <Header>header</Header>
+    <Footer>footer</Footer>
   `,
 };
