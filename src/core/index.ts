@@ -9,3 +9,4 @@ export * from './anchor';
 export * from './image';
 export * from './icon';
 export * from './input';
+export * from './header';
