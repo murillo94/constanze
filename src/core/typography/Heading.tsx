@@ -7,7 +7,7 @@ export const H1 = styled('h1', {
   fontWeight: '$2',
   color: '$gray900',
   lineHeight: '42px',
-  m: 0,
+  m: '$1',
 });
 
 export const H2 = styled('h2', {
@@ -15,7 +15,7 @@ export const H2 = styled('h2', {
   fontWeight: '$2',
   color: '$gray900',
   lineHeight: '36px',
-  m: 0,
+  m: '$1',
 });
 
 export const H3 = styled('h3', {
@@ -23,7 +23,7 @@ export const H3 = styled('h3', {
   fontWeight: '$2',
   color: '$gray900',
   lineHeight: '30px',
-  m: 0,
+  m: '$1',
 });
 
 export const H4 = styled('h4', {
@@ -31,7 +31,7 @@ export const H4 = styled('h4', {
   fontWeight: '$2',
   color: '$gray900',
   lineHeight: '27px',
-  m: 0,
+  m: '$1',
 });
 
 export const H5 = styled('h5', {
@@ -39,5 +39,5 @@ export const H5 = styled('h5', {
   fontWeight: '$2',
   color: '$gray900',
   lineHeight: '24px',
-  m: 0,
+  m: '$1',
 });
