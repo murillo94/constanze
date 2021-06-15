@@ -8,7 +8,7 @@ const StyledSwitch = styled(SwitchRadix.Root, {
   backgroundColor: '$gray400',
   border: 'none',
   borderRadius: 20,
-  p: 0,
+  p: '$1',
   width: 44,
   height: 22,
   position: 'relative',

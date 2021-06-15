@@ -10,7 +10,7 @@ export const StyledCheckbox = styled(CheckboxRadix.Root, {
   borderWidth: '1px',
   borderStyle: 'solid',
   borderColor: '$blue700',
-  p: 0,
+  p: '$1',
   width: 18,
   height: 18,
   display: 'flex',
