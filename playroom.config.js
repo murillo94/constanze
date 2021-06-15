@@ -38,7 +38,9 @@ module.exports = {
     <H4>heading 4</H4>
     <H5>heading 5</H5>
     <Label htmlFor="firstName">label</Label>
-    <input type="text" id="firstName" />
+    <Input type="text" id="firstName" css={{ marginBottom: 5 }} />
+    <InputIcon css={{ marginBottom: 5 }} />
+    <InputPassword css={{ marginBottom: 5 }} />
     <Checkbox />
     <RadioGroup>
       <Radio />

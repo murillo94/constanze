@@ -8,3 +8,4 @@ export * from './badge';
 export * from './anchor';
 export * from './image';
 export * from './icon';
+export * from './input';
