@@ -43,9 +43,9 @@ module.exports = {
     <InputPassword css={{ marginBottom: 5 }} />
     <Checkbox />
     <RadioGroup>
-      <Radio />
-      <Radio />
-      <Radio />
+      <RadioItem />
+      <RadioItem />
+      <RadioItem />
     </RadioGroup>
     <Switch />
     <Badge>badge</Badge>
