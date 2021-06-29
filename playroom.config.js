@@ -57,5 +57,6 @@ module.exports = {
     <Footer>footer</Footer>
     <Alert>alert</Alert>
     <Container>container</Container>
+    <Separator />
   `,
 };

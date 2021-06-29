@@ -11,5 +11,6 @@ export * from './icon';
 export * from './image';
 export * from './input';
 export * from './radio';
+export * from './separator';
 export * from './switch';
 export * from './typography';
