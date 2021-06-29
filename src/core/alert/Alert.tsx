@@ -13,7 +13,7 @@ const StyledAlert = styled('div', {
   borderLeftStyle: 'solid',
   borderLeftColor: '$green700',
   borderRadius: '$3',
-  p: '$4',
+  p: '$5',
 });
 
 export const Alert = ({ children, title, description }) => (
