@@ -10,6 +10,7 @@ export * from './header';
 export * from './icon';
 export * from './image';
 export * from './input';
+export * from './menu';
 export * from './radio';
 export * from './separator';
 export * from './switch';

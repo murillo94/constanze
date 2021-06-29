@@ -58,5 +58,11 @@ module.exports = {
     <Alert>alert</Alert>
     <Container>container</Container>
     <Separator />
+    <MenuGroup>
+      <MenuContent>
+        <MenuItem>menu item 1</MenuItem>
+        <MenuItem>menu item 2</MenuItem>
+      </MenuContent>
+    </MenuGroup>
   `,
 };
