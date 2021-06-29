@@ -11,3 +11,4 @@ export * from './icon';
 export * from './input';
 export * from './header';
 export * from './footer';
+export * from './alert';
