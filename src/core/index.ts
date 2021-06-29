@@ -4,6 +4,7 @@ export * from './badge';
 export * from './box';
 export * from './button';
 export * from './checkbox';
+export * from './container';
 export * from './footer';
 export * from './header';
 export * from './icon';

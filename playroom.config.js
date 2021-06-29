@@ -56,5 +56,6 @@ module.exports = {
     <Header>header</Header>
     <Footer>footer</Footer>
     <Alert>alert</Alert>
+    <Container>container</Container>
   `,
 };
