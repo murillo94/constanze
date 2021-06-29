@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { styled } from '../../theme';
+import { COLORS } from './utils/colors';
 
 export const H1 = styled('h1', {
   fontSize: '$8',
@@ -8,6 +9,12 @@ export const H1 = styled('h1', {
   color: '$gray900',
   lineHeight: '42px',
   m: '$1',
+  variants: {
+    appearance: COLORS,
+  },
+  defaultVariants: {
+    appearance: 'default',
+  },
 });
 
 export const H2 = styled('h2', {
@@ -16,6 +23,12 @@ export const H2 = styled('h2', {
   color: '$gray900',
   lineHeight: '36px',
   m: '$1',
+  variants: {
+    appearance: COLORS,
+  },
+  defaultVariants: {
+    appearance: 'default',
+  },
 });
 
 export const H3 = styled('h3', {
@@ -24,6 +37,12 @@ export const H3 = styled('h3', {
   color: '$gray900',
   lineHeight: '30px',
   m: '$1',
+  variants: {
+    appearance: COLORS,
+  },
+  defaultVariants: {
+    appearance: 'default',
+  },
 });
 
 export const H4 = styled('h4', {
@@ -32,6 +51,12 @@ export const H4 = styled('h4', {
   color: '$gray900',
   lineHeight: '27px',
   m: '$1',
+  variants: {
+    appearance: COLORS,
+  },
+  defaultVariants: {
+    appearance: 'default',
+  },
 });
 
 export const H5 = styled('h5', {
@@ -40,4 +65,10 @@ export const H5 = styled('h5', {
   color: '$gray900',
   lineHeight: '24px',
   m: '$1',
+  variants: {
+    appearance: COLORS,
+  },
+  defaultVariants: {
+    appearance: 'default',
+  },
 });
