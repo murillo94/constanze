@@ -11,7 +11,7 @@ export const Badge = styled(Text, {
   borderStyle: 'solid',
   px: 4,
   variants: {
-    variant: {
+    appearance: {
       default: {
         color: '$blue700',
         borderColor: '$blue700',
@@ -23,6 +23,6 @@ export const Badge = styled(Text, {
     },
   },
   defaultVariants: {
-    variant: 'default',
+    appearance: 'default',
   },
 });

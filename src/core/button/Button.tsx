@@ -17,7 +17,7 @@ export const Button = styled('button', {
   justifyContent: 'center',
   verticalAlign: 'middle',
   variants: {
-    variant: {
+    appearance: {
       default: {
         color: '$gray0',
         backgroundColor: '$blue700',
@@ -55,7 +55,7 @@ export const Button = styled('button', {
   },
   compoundVariants: [
     {
-      variant: 'default',
+      appearance: 'default',
       outlined: true,
       css: {
         color: '$gray900',
@@ -63,7 +63,7 @@ export const Button = styled('button', {
       },
     },
     {
-      variant: 'minimal',
+      appearance: 'minimal',
       outlined: true,
       css: {
         borderColor: '$gray300',
@@ -71,6 +71,6 @@ export const Button = styled('button', {
     },
   ],
   defaultVariants: {
-    variant: 'default',
+    appearance: 'default',
   },
 });

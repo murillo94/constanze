@@ -23,7 +23,7 @@ export const InputIcon = ({ type, name }) => (
   >
     <InputIconStyled type={type} />
     <Button
-      variant="minimal"
+      appearance="minimal"
       css={{
         borderTopLeftRadius: 0,
         borderBottomLeftRadius: 0,
