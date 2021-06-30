@@ -58,11 +58,17 @@ module.exports = {
     <Alert>alert</Alert>
     <Container>container</Container>
     <Separator />
-    <MenuGroup>
+    <MenuGroup title="menu">
       <MenuContent>
         <MenuItem>menu item 1</MenuItem>
         <MenuItem>menu item 2</MenuItem>
       </MenuContent>
     </MenuGroup>
+    <DialogGroup title="dialog">
+      <DialogContent>
+        dialog
+        <DialogClose>close</DialogClose>
+      </DialogContent>
+    </DialogGroup>
   `,
 };
