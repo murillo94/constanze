@@ -66,9 +66,12 @@ module.exports = {
     </MenuGroup>
     <DialogGroup title="dialog">
       <DialogContent>
-        dialog
+        dialog content
         <DialogClose>close</DialogClose>
       </DialogContent>
     </DialogGroup>
+    <DisclosureGroup title="disclosure">
+      disclosure content
+    </DisclosureGroup>
   `,
 };
