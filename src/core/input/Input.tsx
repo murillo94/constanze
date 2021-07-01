@@ -7,7 +7,7 @@ export const Input = styled('input', {
   backgroundClip: 'padding-box',
   borderWidth: '1px',
   borderStyle: 'solid',
-  borderColor: '$blue700',
+  borderColor: '$violet10',
   borderRadius: '$3',
   outline: 0,
   width: '100%',
@@ -18,10 +18,10 @@ export const Input = styled('input', {
   },
   '&:focus': {
     boxShadow: '$1',
-    borderColor: '$blue700',
+    borderColor: '$violet10',
     zIndex: 1,
   },
   '&::placeholder': {
-    color: '$gray700',
+    color: '$gray7',
   },
 });

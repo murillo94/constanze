@@ -5,11 +5,11 @@ import { styled } from '../../theme';
 
 export const StyledCheckbox = styled(CheckboxRadix.Root, {
   appearance: 'none',
-  backgroundColor: 'transparent',
+  backgroundColor: '$gray1',
   borderRadius: '$2',
   borderWidth: '1px',
   borderStyle: 'solid',
-  borderColor: '$blue700',
+  borderColor: '$violet10',
   p: '$1',
   width: 18,
   height: 18,
@@ -29,10 +29,10 @@ const StyledIndicator = styled(CheckboxRadix.Indicator, {
   transform: 'rotate(45deg)',
   borderBottomWidth: '2px',
   borderBottomStyle: 'solid',
-  borderBottomColor: '$blue700',
+  borderBottomColor: '$violet10',
   borderRightWidth: '2px',
   borderRightStyle: 'solid',
-  borderRightColor: '$blue700',
+  borderRightColor: '$violet10',
 });
 
 export const Checkbox = () => (

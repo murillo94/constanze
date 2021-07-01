@@ -19,37 +19,36 @@ export const Button = styled('button', {
   variants: {
     appearance: {
       default: {
-        color: '$gray0',
-        backgroundColor: '$blue700',
-        borderColor: '$blue700',
+        color: '$gray1',
+        backgroundColor: '$violet10',
+        borderColor: '$violet10',
         '&:hover': {
-          color: '$gray0',
-          backgroundColor: '$blue600',
-          borderColor: '$blue600',
+          color: '$gray1',
+          backgroundColor: '$violet9',
+          borderColor: '$violet9',
         },
         '&:focus': {
           boxShadow: '$1',
-          borderColor: '$blue700',
+          borderColor: '$violet10',
         },
       },
       minimal: {
-        color: '$gray900',
-        backgroundColor: '$gray300',
-        borderColor: '$gray300',
+        color: '$gray12',
+        backgroundColor: '$gray6',
+        borderColor: '$gray6',
         '&:hover': {
-          color: '$gray900',
-          backgroundColor: '$gray200',
-          borderColor: '$gray200',
+          backgroundColor: '$gray5',
+          borderColor: '$gray5',
         },
         '&:focus': {
           boxShadow: '$1',
-          borderColor: '$blue700',
+          borderColor: '$violet10',
         },
       },
     },
     outlined: {
       true: {
-        backgroundColor: 'transparent',
+        backgroundColor: '$gray1',
       },
     },
   },
@@ -58,15 +57,17 @@ export const Button = styled('button', {
       appearance: 'default',
       outlined: true,
       css: {
-        color: '$gray900',
-        borderColor: '$blue700',
+        color: '$gray12',
+        backgroundColor: '$gray1',
+        borderColor: '$violet10',
       },
     },
     {
       appearance: 'minimal',
       outlined: true,
       css: {
-        borderColor: '$gray300',
+        backgroundColor: '$gray1',
+        borderColor: '$gray6',
       },
     },
   ],

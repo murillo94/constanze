@@ -5,13 +5,13 @@ import { H5, Paragraph } from '../';
 import { styled } from '../../theme';
 
 const StyledAlert = styled('div', {
-  backgroundColor: '$gray0',
+  backgroundColor: '$gray1',
   borderWidth: '1px',
   borderStyle: 'solid',
-  borderColor: '$gray300',
+  borderColor: '$gray6',
   borderLeftWidth: '4px',
   borderLeftStyle: 'solid',
-  borderLeftColor: '$green700',
+  borderLeftColor: '$green10',
   borderRadius: '$3',
   p: '$5',
 });

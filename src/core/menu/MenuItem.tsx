@@ -11,8 +11,8 @@ const StyledItem = styled(DropdownMenuRadix.Item, {
   cursor: 'default',
 
   '&:focus': {
-    backgroundColor: '$gray200',
-    color: '$gray900',
+    backgroundColor: '$gray7',
+    color: '$gray12',
     outline: 'none',
   },
 });

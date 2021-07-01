@@ -5,7 +5,7 @@ import { styled } from '../../theme';
 
 const StyledSwitch = styled(SwitchRadix.Root, {
   appearance: 'none',
-  backgroundColor: '$gray400',
+  backgroundColor: '$gray7',
   border: 'none',
   borderRadius: 20,
   p: '$1',
@@ -17,7 +17,7 @@ const StyledSwitch = styled(SwitchRadix.Root, {
     boxShadow: '$1',
   },
   '&[data-state="checked"]': {
-    backgroundColor: '$blue700',
+    backgroundColor: '$violet10',
   },
 });
 
@@ -26,7 +26,7 @@ const StyledThumb = styled(SwitchRadix.Thumb, {
   width: 16,
   height: 16,
   border: 'none',
-  backgroundColor: '$gray0',
+  backgroundColor: '$gray1',
   borderRadius: '50%',
   transition: 'transform 100ms',
   transform: 'translateX(5px)',

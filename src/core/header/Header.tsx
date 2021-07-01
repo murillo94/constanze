@@ -3,10 +3,10 @@ import React from 'react';
 import { styled } from '../../theme';
 
 export const Header = styled('header', {
-  backgroundColor: '$gray0',
+  backgroundColor: '$gray1',
   borderBottomWidth: '1px',
   borderBottomStyle: 'solid',
-  borderBottomColor: '$gray400',
+  borderBottomColor: '$gray7',
   position: 'sticky',
   top: '0',
   left: '0',

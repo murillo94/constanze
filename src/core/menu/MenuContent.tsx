@@ -4,10 +4,10 @@ import * as DropdownMenuRadix from '@radix-ui/react-dropdown-menu';
 import { styled } from '../../theme';
 
 const StyledContent = styled(DropdownMenuRadix.Content, {
-  backgroundColor: '$gray0',
+  backgroundColor: '$gray1',
   borderWidth: '1px',
   borderStyle: 'solid',
-  borderColor: '$gray300',
+  borderColor: '$gray6',
   borderRadius: '$2',
   p: '$2',
   minWidth: 120,

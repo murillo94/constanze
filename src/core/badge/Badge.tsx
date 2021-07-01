@@ -5,7 +5,8 @@ import { Text } from '../typography';
 import { styled } from '../../theme';
 
 export const Badge = styled(Text, {
-  backgroundColor: '$gray0',
+  color: '$violet10',
+  backgroundColor: '$gray1',
   borderRadius: '$3',
   borderWidth: '1px',
   borderStyle: 'solid',
@@ -13,12 +14,12 @@ export const Badge = styled(Text, {
   variants: {
     appearance: {
       default: {
-        color: '$blue700',
-        borderColor: '$blue700',
+        color: '$violet10',
+        borderColor: '$violet10',
       },
       minimal: {
-        color: '$gray900',
-        borderColor: '$gray300',
+        color: '$gray12',
+        borderColor: '$gray6',
       },
     },
   },

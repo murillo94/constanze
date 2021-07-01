@@ -4,7 +4,7 @@ import * as SeparatorRadix from '@radix-ui/react-separator';
 import { styled } from '../../theme';
 
 const StyledSeparator = styled(SeparatorRadix.Root, {
-  backgroundColor: '$gray300',
+  backgroundColor: '$gray6',
   height: 1,
   my: '$2',
   mx: '$1',
