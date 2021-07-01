@@ -5,7 +5,7 @@ import { Button } from '../';
 
 export const MenuGroup = ({ title, children }) => (
   <DropdownMenuRadix.Root>
-    <DropdownMenuRadix.Trigger as={Button} appearance="minimal">
+    <DropdownMenuRadix.Trigger as={Button} appearance="minimal" outlined>
       {title}
     </DropdownMenuRadix.Trigger>
     {children}

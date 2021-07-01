@@ -6,7 +6,7 @@ import { Button, Overlay } from '../';
 export const DialogGroup = ({ title, children }) => (
   <DialogRadix.Root>
     <Overlay />
-    <DialogRadix.Trigger as={Button} appearance="minimal">
+    <DialogRadix.Trigger as={Button} appearance="minimal" outlined>
       {title}
     </DialogRadix.Trigger>
     {children}

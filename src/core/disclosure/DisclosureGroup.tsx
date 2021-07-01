@@ -5,7 +5,7 @@ import { Button, DisclosureContent } from '../';
 
 export const DisclosureGroup = ({ title, children }) => (
   <CollapsibleRadix.Root>
-    <CollapsibleRadix.Trigger as={Button} appearance="minimal">
+    <CollapsibleRadix.Trigger as={Button} appearance="minimal" outlined>
       {title}
     </CollapsibleRadix.Trigger>
     <DisclosureContent>{children}</DisclosureContent>
