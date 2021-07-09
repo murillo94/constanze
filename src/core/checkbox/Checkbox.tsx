@@ -9,7 +9,7 @@ export const StyledCheckbox = styled(CheckboxRadix.Root, {
   borderRadius: '$2',
   borderWidth: '1px',
   borderStyle: 'solid',
-  borderColor: '$violet10',
+  borderColor: '$violet9',
   p: '$1',
   width: 18,
   height: 18,
@@ -29,10 +29,10 @@ const StyledIndicator = styled(CheckboxRadix.Indicator, {
   transform: 'rotate(45deg)',
   borderBottomWidth: '2px',
   borderBottomStyle: 'solid',
-  borderBottomColor: '$violet10',
+  borderBottomColor: '$violet9',
   borderRightWidth: '2px',
   borderRightStyle: 'solid',
-  borderRightColor: '$violet10',
+  borderRightColor: '$violet9',
 });
 
 export const Checkbox = () => (

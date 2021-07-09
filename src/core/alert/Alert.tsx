@@ -11,7 +11,7 @@ const StyledAlert = styled('div', {
   borderColor: '$gray6',
   borderLeftWidth: '4px',
   borderLeftStyle: 'solid',
-  borderLeftColor: '$green11',
+  borderLeftColor: '$green9',
   borderRadius: '$3',
   p: '$5',
 });

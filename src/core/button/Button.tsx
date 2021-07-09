@@ -20,16 +20,16 @@ export const Button = styled('button', {
     appearance: {
       default: {
         color: '$gray1',
-        backgroundColor: '$violet10',
-        borderColor: '$violet10',
+        backgroundColor: '$violet9',
+        borderColor: '$violet9',
         '&:hover': {
           color: '$gray1',
-          backgroundColor: '$violet9',
-          borderColor: '$violet9',
+          backgroundColor: '$violet10',
+          borderColor: '$violet10',
         },
         '&:focus': {
           boxShadow: '$1',
-          borderColor: '$violet10',
+          borderColor: '$violet9',
         },
       },
       minimal: {
@@ -37,12 +37,12 @@ export const Button = styled('button', {
         backgroundColor: '$gray6',
         borderColor: '$gray6',
         '&:hover': {
-          backgroundColor: '$gray5',
-          borderColor: '$gray5',
+          backgroundColor: '$gray7',
+          borderColor: '$gray7',
         },
         '&:focus': {
           boxShadow: '$1',
-          borderColor: '$violet10',
+          borderColor: '$violet9',
         },
       },
     },
@@ -59,7 +59,7 @@ export const Button = styled('button', {
       css: {
         color: '$gray12',
         backgroundColor: '$gray1',
-        borderColor: '$violet10',
+        borderColor: '$violet9',
       },
     },
     {

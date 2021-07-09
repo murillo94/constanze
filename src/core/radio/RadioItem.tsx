@@ -9,7 +9,7 @@ const StyledRadio = styled(RadioRadix.Item, {
   backgroundColor: '$gray1',
   borderWidth: '1px',
   borderStyle: 'solid',
-  borderColor: '$violet10',
+  borderColor: '$violet9',
   borderRadius: '50%',
   p: '$1',
   width: 18,
@@ -31,7 +31,7 @@ const StyledIndicator = styled(RadioRadix.Indicator, {
   width: 10,
   height: 10,
   borderRadius: '50%',
-  backgroundColor: '$violet10',
+  backgroundColor: '$violet9',
 });
 
 export const RadioItem = () => (

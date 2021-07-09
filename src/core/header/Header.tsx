@@ -6,7 +6,7 @@ export const Header = styled('header', {
   backgroundColor: '$gray1',
   borderBottomWidth: '1px',
   borderBottomStyle: 'solid',
-  borderBottomColor: '$gray7',
+  borderBottomColor: '$gray6',
   position: 'sticky',
   top: '0',
   left: '0',

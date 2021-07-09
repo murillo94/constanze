@@ -17,7 +17,7 @@ const StyledSwitch = styled(SwitchRadix.Root, {
     boxShadow: '$1',
   },
   '&[data-state="checked"]': {
-    backgroundColor: '$violet10',
+    backgroundColor: '$violet9',
   },
 });
 
