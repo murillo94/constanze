@@ -6,8 +6,8 @@ import { styled } from '../../theme';
 
 interface Props {
   children: React.ReactNode;
-  title: string;
-  description: string;
+  title?: string;
+  description?: string;
 }
 
 const StyledAlert = styled('div', {

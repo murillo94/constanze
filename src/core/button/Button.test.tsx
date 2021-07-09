@@ -5,12 +5,6 @@ import { Button } from '../index';
 const content = 'im content';
 
 describe('Button', () => {
-  test('should render', () => {
-    const { getByRole } = render(<Button />);
-
-    expect(getByRole('button')).toBeInTheDocument();
-  });
-
   test('should render children and default values', () => {
     const { getByRole } = render(<Button>{content}</Button>);
 
