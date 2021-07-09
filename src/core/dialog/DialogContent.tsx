@@ -3,6 +3,10 @@ import * as DialogRadix from '@radix-ui/react-dialog';
 
 import { styled } from '../../theme';
 
+interface Props {
+  children: React.ReactNode;
+}
+
 const StyledContent = styled(DialogRadix.Content, {
   position: 'fixed',
   top: '50%',
@@ -21,6 +25,6 @@ const StyledContent = styled(DialogRadix.Content, {
   },
 });
 
-export const DialogContent = ({ children }) => (
+export const DialogContent = ({ children }: Props) => (
   <StyledContent>{children}</StyledContent>
 );

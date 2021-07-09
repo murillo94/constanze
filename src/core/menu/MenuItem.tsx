@@ -5,6 +5,11 @@ import { Text } from '../';
 
 import { styled } from '../../theme';
 
+interface Props {
+  children: React.ReactNode;
+  title: string;
+}
+
 const StyledItem = styled(DropdownMenuRadix.Item, {
   p: '$2',
   borderRadius: '$2',
@@ -17,7 +22,7 @@ const StyledItem = styled(DropdownMenuRadix.Item, {
   },
 });
 
-export const MenuItem = ({ title, children }) => (
+export const MenuItem = ({ children, title }: Props) => (
   <StyledItem>
     <Text>{title}</Text>
     {children}

@@ -4,6 +4,12 @@ import { H5, Paragraph } from '../';
 
 import { styled } from '../../theme';
 
+interface Props {
+  children: React.ReactNode;
+  title: string;
+  description: string;
+}
+
 const StyledAlert = styled('div', {
   backgroundColor: '$gray1',
   borderWidth: '1px',
@@ -16,7 +22,7 @@ const StyledAlert = styled('div', {
   p: '$5',
 });
 
-export const Alert = ({ children, title, description }) => (
+export const Alert = ({ children, title, description }: Props) => (
   <StyledAlert role="alert">
     {title && <H5>{title}</H5>}
     {description && (

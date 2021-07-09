@@ -3,6 +3,10 @@ import * as DropdownMenuRadix from '@radix-ui/react-dropdown-menu';
 
 import { styled } from '../../theme';
 
+interface Props {
+  children: React.ReactNode;
+}
+
 const StyledContent = styled(DropdownMenuRadix.Content, {
   backgroundColor: '$gray1',
   borderWidth: '1px',
@@ -13,6 +17,6 @@ const StyledContent = styled(DropdownMenuRadix.Content, {
   minWidth: 120,
 });
 
-export const MenuContent = ({ children }) => (
+export const MenuContent = ({ children }: Props) => (
   <StyledContent>{children}</StyledContent>
 );

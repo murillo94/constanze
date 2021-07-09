@@ -4,6 +4,13 @@ import { Box, H4, Paragraph } from '..';
 
 import { styled } from '../../theme';
 
+interface Props {
+  children: React.ReactNode;
+  optionsTitle?: React.ReactNode;
+  title: string;
+  subTitle?: string;
+}
+
 const StyledContainer = styled('section', {
   backgroundColor: '$gray1',
   borderWidth: '1px',
@@ -14,7 +21,12 @@ const StyledContainer = styled('section', {
   p: '$5',
 });
 
-export const Container = ({ children, title, subTitle, optionsTitle }) => (
+export const Container = ({
+  children,
+  optionsTitle,
+  title,
+  subTitle,
+}: Props) => (
   <StyledContainer>
     {title && (
       <Box as="header">

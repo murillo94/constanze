@@ -3,7 +3,12 @@ import * as DialogRadix from '@radix-ui/react-dialog';
 
 import { Button, Overlay } from '../';
 
-export const DialogGroup = ({ title, children }) => (
+interface Props {
+  children: React.ReactNode;
+  title: string;
+}
+
+export const DialogGroup = ({ children, title }: Props) => (
   <DialogRadix.Root>
     <Overlay />
     <DialogRadix.Trigger as={Button} appearance="minimal" outlined>

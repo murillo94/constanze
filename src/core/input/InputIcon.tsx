@@ -5,6 +5,10 @@ import { Input } from './';
 
 import { styled } from '../../theme';
 
+interface Props<T> extends React.InputHTMLAttributes<T> {
+  name?: string;
+}
+
 const InputIconStyled = styled(Input, {
   borderTopRightRadius: 0,
   borderBottomRightRadius: 0,
@@ -12,7 +16,7 @@ const InputIconStyled = styled(Input, {
   flex: 0.95,
 });
 
-export const InputIcon = ({ type, name }) => (
+export const InputIcon = ({ type, name }: Props<HTMLInputElement>) => (
   <Box
     css={{
       display: 'flex',
