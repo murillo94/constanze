@@ -7,14 +7,23 @@ interface Props<T> extends React.ImgHTMLAttributes<T> {
 }
 
 export const ImageDescription = ({
+  id,
   src,
   alt,
+  description,
   width,
   height,
-  description,
 }: Props<HTMLImageElement>) => (
   <Box css={{ display: 'flex', alignItems: 'center' }}>
-    <Image src={src} alt={alt} width={width} height={height} />
-    <Text css={{ ml: 2 }}>{description}</Text>
+    <Image
+      src={src}
+      alt={alt}
+      width={width}
+      height={height}
+      aria-describedby={id}
+    />
+    <Text id={id} role="presentation" css={{ ml: 2 }}>
+      {description}
+    </Text>
   </Box>
 );

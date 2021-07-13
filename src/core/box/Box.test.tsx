@@ -11,7 +11,7 @@ describe('Box', () => {
     expect(container).toBeInTheDocument();
   });
 
-  it('should have children and style', () => {
+  it('should have children with class name style inline', () => {
     const { getByText } = render(
       <Box css={{ backgroundColor: 'red' }}>{content}</Box>,
     );
@@ -19,24 +19,26 @@ describe('Box', () => {
     const box = getByText(content);
 
     expect(box).toHaveTextContent(content);
-    expect(box).toHaveStyle('background-color: red;');
+    expect(box).toHaveClass('c-PJLV c-PJLV-idkEfkH-css');
   });
 
-  it('should have class name', () => {
+  it('should have children with class name', () => {
     const { getByText } = render(
       <Box className="classname-test">{content}</Box>,
     );
 
     const box = getByText(content);
 
+    expect(box).toHaveTextContent(content);
     expect(box).toHaveClass('classname-test');
   });
 
-  it('should have button', () => {
+  it('should be a button', () => {
     const { getByRole } = render(<Box as="button">{content}</Box>);
 
     const button = getByRole('button');
 
+    expect(button).toHaveTextContent(content);
     expect(button).toBeInTheDocument();
   });
 });
