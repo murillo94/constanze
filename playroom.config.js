@@ -39,6 +39,11 @@ module.exports = {
     <Button appearance="minimal" outlined>
       button
     </Button>
+    <Select>
+      <SelectItem value="item1">item1</SelectItem>
+      <SelectItem value="item2">item2</SelectItem>
+      <SelectItem value="item3">item3</SelectItem>
+    </Select>
     <Checkbox />
     <Container>container</Container>
     <DialogGroup title="dialog">

@@ -14,6 +14,7 @@ export * from './image';
 export * from './input';
 export * from './menu';
 export * from './radio';
+export * from './select';
 export * from './separator';
 export * from './switch';
 export * from './typography';

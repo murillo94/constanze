@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react';
 import FeatherIcon from 'feather-icons-react';
 import * as AccessibleIcon from '@radix-ui/react-accessible-icon';
