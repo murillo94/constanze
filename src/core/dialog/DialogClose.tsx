@@ -8,7 +8,9 @@ interface Props {
 }
 
 export const DialogClose = ({ children }: Props) => (
-  <DialogRadix.Close as={Button} appearance="minimal" outlined>
-    {children}
+  <DialogRadix.Close asChild>
+    <Button appearance="minimal" outlined>
+      {children}
+    </Button>
   </DialogRadix.Close>
 );

@@ -22,8 +22,10 @@ const Overlay = styled(DialogRadix.Overlay, {
 export const DialogGroup = ({ children, title }: Props) => (
   <DialogRadix.Root>
     <Overlay />
-    <DialogRadix.Trigger as={Button} appearance="minimal" outlined>
-      {title}
+    <DialogRadix.Trigger asChild>
+      <Button appearance="minimal" outlined>
+        {title}
+      </Button>
     </DialogRadix.Trigger>
     {children}
   </DialogRadix.Root>

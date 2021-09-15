@@ -10,8 +10,10 @@ interface Props {
 
 export const MenuGroup = ({ children, title }: Props) => (
   <DropdownMenuRadix.Root>
-    <DropdownMenuRadix.Trigger as={Button} appearance="minimal" outlined>
-      {title}
+    <DropdownMenuRadix.Trigger asChild>
+      <Button appearance="minimal" outlined>
+        {title}
+      </Button>
     </DropdownMenuRadix.Trigger>
     {children}
   </DropdownMenuRadix.Root>

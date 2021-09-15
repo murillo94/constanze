@@ -1,15 +1,15 @@
-import { createCss, StitchesVariants } from '@stitches/react';
+import { createStitches, VariantProps } from '@stitches/react';
 
 import { MEDIA } from './media';
 import { THEME } from './theme';
 import { UTILS } from './utils';
 
-export const { styled, css, global, keyframes, getCssString, theme } =
-  createCss({
+export const { styled, css, globalCss, keyframes, theme, getCssText } =
+  createStitches({
     theme: THEME,
     media: MEDIA,
     utils: UTILS,
     prefix: '',
   });
 
-export { StitchesVariants };
+export { VariantProps };

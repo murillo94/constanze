@@ -10,8 +10,10 @@ interface Props {
 
 export const DisclosureGroup = ({ children, title }: Props) => (
   <CollapsibleRadix.Root>
-    <CollapsibleRadix.Trigger as={Button} appearance="minimal" outlined>
-      {title}
+    <CollapsibleRadix.Trigger asChild>
+      <Button appearance="minimal" outlined>
+        {title}
+      </Button>
     </CollapsibleRadix.Trigger>
     <DisclosureContent>{children}</DisclosureContent>
   </CollapsibleRadix.Root>
